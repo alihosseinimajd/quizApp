@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet", href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <title>Ieltssource Quizes</title>
+</head>
+<body>
+    <div class="app">
+        <h1>IELTSsource Quiz</h1>
+        <h3>choose the correct pharaphrase for each question:</h3>
+        <div class="quiz">
+            
+            <h2 id="question">Questions Goes Here</h2>
+            <div id="answer-buttons">
+                <button class="btn">Answer1</button>
+                <button class="btn">Answer2</button>
+                <button class="btn">Answer3</button>
+                <button class="btn">Answer4</button>
+
+            </div>
+            <div id="pie-chart">
+                <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+
+            </div>
+            <button id="next-btn">Next</button>
+        </div>
+    </div>
+    <div class="passages">
+        <div id="question-pics" >
+            <img src="/pics/15-2-1/C15-T2-P1-1.PNG">
+            <img src="/pics/15-2-1/C15-T2-P1-2.PNG">
+        </div>
+        
+    </div>
+    <div id="answer-pics" >
+        <h1>Could urban engineers learn from dance?</h1>
+        <h2>A</h2>
+        <p>The way we travel around cities has a major impact on whether they are sustainable. Transportation is estimated to account for 30% of energy consumption in most of the world’s most developed nations, so lowering the need for energy-using vehicles is essential for decreasing the environmental impact of mobility. But as more and more people move to cities, it is important to think about other kinds of sustainable travel too. The ways we travel <mark>affect</mark> our physical and mental health, our social lives, our access to work and culture, and the air we breathe. Engineers are tasked with changing how we travel round cities through urban design, but the engineering industry still works on the assumptions that led to the creation of the energy-consuming transport systems we have now: the emphasis placed solely on efficiency, speed, and quantitative data. We need radical changes, to make it healthier, more enjoyable, and less environmentally damaging to travel around cities.</p>
+        <h2>B</h2>
+        <p>Dance might hold some of the answers. That is not to suggest everyone should dance their way to work, however healthy and happy it might make us, but rather that the techniques used by choreographers to experiment with and design movement in dance could provide engineers with tools to stimulate new ideas in city-making. Richard Sennett, an influential urbanist and sociologist who has transformed ideas about the way cities are made, argues that urban design has suffered from a separation between mind and body since the introduction of the architectural blueprint.</p>
+        <h2>C</h2>
+        <p>Whereas <mark>medieval</mark> builders improvised and adapted construction through their intimate knowledge of materials and personal experience of the conditions on a site, building designs are now conceived and stored in media technologies that detach the designer from the physical and social realities they are creating. While the design practices created by these new technologies are essential for managing the technical complexity of the modern city, they have the drawback of simplifying reality in the process.</p>
+
+        <!-- <img src="/pics/15-2-1/C15-T2-P1-3.PNG">
+        <img src="/pics/15-2-1/C15-T2-P1-4.PNG">
+        <img src="/pics/15-2-1/C15-T2-P1-5.PNG">
+        <img src="/pics/15-2-1/C15-T2-P1-6.PNG"> -->
+    </div>
+    <!-- <div class="circles">
+        <span>1</span>
+    </div> -->
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Poppins',sans-serif; */
+    box-sizing: border-box;
+}
+body {
+background: #001e4d;
+}
+.app{
+    background-color: #fff;
+    width: 90%;
+    max-width: 700px;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 30px;
+}
+.app h1{
+    font-size: 25px;
+    color: #001e4d;
+    font-weight: 600;
+    /* border-bottom: 1px solid #333; */
+    padding-bottom: 15px;
+}
+.app h3{
+    font-size: 15px;
+    color: #001e4d;
+    font-weight: 400;
+    border-bottom: 1px solid #333;
+    padding-bottom: 10px;
+}
+
+.quiz{
+    padding: 20px 0;
+}
+.quize h2{
+    font-size: 18px;
+    font-weight: 600;
+    color: #001e4d;
+}
+.btn{
+    background: #fff;
+    color: #222;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #222;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.btn:hover:not([disabled]){
+    background: #222;
+    color: #fff;
+}
+.btn:disabled{
+    cursor: no-drop;
+}
+#next-btn{
+    background: #001e4d;
+    color: #fff;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+}
+
+#pie-chart{
+    display: none;
+}
+
+.passages {
+    background-color: #fff;
+    width: 90%;
+    max-width: 700px;
+    margin: 30px auto 0;
+    border-radius: 30px;
+    padding: 30px;
+    overflow:auto;
+}
+
+
+#answer-pics {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    display: none;
+    text-align: justify;
+    overflow:hidden;
+    background-color: #fff;
+    width: 90%;
+    max-width: 700px;
+    margin: 30px auto 0;
+    border-radius: 20px;
+    padding: 30px;
+    overflow:auto;
+}
+/* .circles {
+    position:fixed;
+    background-color: rgba(0, 0, 0, 0.514);
+    right: 50%;
+    bottom: 5vh;
+    width: 2.5%;
+    height: 5.5%;
+    margin: 0;
+    border-radius: 100px;
+    padding: 20px;
+} */
+
+.correct{
+    background: #9aeabc;
+}
+.incorrect{
+    background: #ff9393;
+}
